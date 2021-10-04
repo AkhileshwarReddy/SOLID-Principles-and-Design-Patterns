@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrincip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrinciple", "OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{C616688F-F28C-4496-B8FC-78E42579167B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple", "LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{FC389C9A-7C21-417E-BD83-123C73FD1930}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "LiskovSubstitutionPrinciple\InterfaceSegregationPrinciple.csproj", "{FC389C9A-7C21-417E-BD83-123C73FD1930}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
