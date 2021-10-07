@@ -1,6 +1,0 @@
-﻿namespace LiskovSubstitutionPrinciple
-{
-    class Document
-    {
-    }
-}

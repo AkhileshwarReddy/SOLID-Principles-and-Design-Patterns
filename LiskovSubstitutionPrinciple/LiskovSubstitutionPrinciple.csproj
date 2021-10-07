@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC389C9A-7C21-417E-BD83-123C73FD1930}</ProjectGuid>
+    <ProjectGuid>{AF815DF7-AD91-435D-9FD0-10CE41F1CA68}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LiskovSubstitutionPrinciple</RootNamespace>
@@ -43,17 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Document.cs" />
-    <Compile Include="Interfaces\IFax.cs" />
-    <Compile Include="Interfaces\IMachine.cs" />
-    <Compile Include="Interfaces\IMultiFunctionDevice.cs" />
-    <Compile Include="Interfaces\IPrinter.cs" />
-    <Compile Include="Interfaces\IScanner.cs" />
-    <Compile Include="Printers\MultiFunctionMachine.cs" />
-    <Compile Include="Printers\MultiFunctionPrinter.cs" />
-    <Compile Include="Printers\OldFashionedPrinter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangle.cs" />
+    <Compile Include="Square.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
