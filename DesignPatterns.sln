@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{2E71C197-DEF2-49B6-A979-316FBF2DCEE8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID Principles", "SOLID Principles", "{398EB7A3-6DBD-447E-ADF1-828E45C1AA3D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{71F5F81A-69BD-4E84-92BB-874C772BC1B4}"
@@ -15,16 +13,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{C3854BFD-781B-4886-8734-B642DF1E3764}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design Patterns", "Design Patterns", "{0950C3D7-0FC5-4ECC-8C33-244251BAAFA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionPrinciple", "DependencyInjectionPrinciple\DependencyInjectionPrinciple.csproj", "{728A827C-1B1D-4826-97AA-6B09B12D898B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2E71C197-DEF2-49B6-A979-316FBF2DCEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E71C197-DEF2-49B6-A979-316FBF2DCEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E71C197-DEF2-49B6-A979-316FBF2DCEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E71C197-DEF2-49B6-A979-316FBF2DCEE8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{71F5F81A-69BD-4E84-92BB-874C772BC1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71F5F81A-69BD-4E84-92BB-874C772BC1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71F5F81A-69BD-4E84-92BB-874C772BC1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +39,10 @@ Global
 		{C3854BFD-781B-4886-8734-B642DF1E3764}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3854BFD-781B-4886-8734-B642DF1E3764}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3854BFD-781B-4886-8734-B642DF1E3764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728A827C-1B1D-4826-97AA-6B09B12D898B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728A827C-1B1D-4826-97AA-6B09B12D898B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728A827C-1B1D-4826-97AA-6B09B12D898B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728A827C-1B1D-4826-97AA-6B09B12D898B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +52,6 @@ Global
 		{C616688F-F28C-4496-B8FC-78E42579167B} = {398EB7A3-6DBD-447E-ADF1-828E45C1AA3D}
 		{AF815DF7-AD91-435D-9FD0-10CE41F1CA68} = {398EB7A3-6DBD-447E-ADF1-828E45C1AA3D}
 		{C3854BFD-781B-4886-8734-B642DF1E3764} = {398EB7A3-6DBD-447E-ADF1-828E45C1AA3D}
+		{728A827C-1B1D-4826-97AA-6B09B12D898B} = {398EB7A3-6DBD-447E-ADF1-828E45C1AA3D}
 	EndGlobalSection
 EndGlobal
